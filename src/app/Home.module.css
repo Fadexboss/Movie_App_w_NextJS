@@ -1,0 +1,124 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+}
+
+.score,
+.timer {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.guessGrid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.word {
+  margin: 0 10px;
+  display: flex;
+}
+
+.letterInput {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  font-size: 1.5rem;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.letterInput:focus {
+  border-color: #4CAF50;
+}
+
+.message {
+  font-size: 1.2rem;
+  color: #4CAF50;
+  margin: 20px 0;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.hintsTable {
+  margin: 20px 0;
+}
+
+.hintsTable table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.hintsTable th, .hintsTable td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.posterFrame {
+  margin-top: 20px;
+}
+
+.posterImg {
+  width: 100%;
+  height: auto;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupContent {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.popupContent h2 {
+  font-size: 2rem;
+}
+
+.popupContent p {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.popupContent .button {
+  background-color: #28a745;
+}
+
+.popupContent .button:hover {
+  background-color: #218838;
+}
